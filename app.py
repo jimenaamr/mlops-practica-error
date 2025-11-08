@@ -6,7 +6,7 @@ import numpy as np
 try:
     model = joblib.load('model.pkl')
 except FileNotFoundError:
-    print("Error: 'model.pkl' no encontrado. Por favor, asegúrate de haber ejecutado el script de entrenamiento.")
+    print("Error:'model.pkl' no encontrado. Por favor, asegúrate de haber ejecutado el script de entrenamiento.")
     model = None
 
 # Inicializar la aplicación Flask
